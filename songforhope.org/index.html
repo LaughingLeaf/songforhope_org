@@ -1,0 +1,972 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Song for Hope</title>
+
+    <!--|Google Font( Open Sans )|-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <!--|Google Font( Roboto Slab )|-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700' rel='stylesheet' type='text/css'>
+    <!--|Icon Font( Ion Icon)|-->
+    <link href="assets/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <!--|Vegas|-->
+    <link href="assets/css/vegas.min.css" rel="stylesheet" type="text/css">
+    <!--|Owl Carousel|-->
+    <link href="assets/css/owl.carousel.css" rel="stylesheet" type="text/css">
+    <!--|Bootstrap|-->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!--|Site Stylesheet|-->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <!--|Favicon|-->
+    <link rel="icon" href="assets/images/favicon.ico">
+    <!-- Touch Icons -->
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.min.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!--|Preloader|-->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div>
+                <div></div>
+            </div>
+            <span class="fp-meta">loading...</span>
+        </div>
+    </div> <!--|End Preloader|-->
+    <!--||Register||-->
+    <div id="register" class="register modal fade">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                    <h4 class="modal-title">Sign Up to Play or Sing Now</h4>
+                </div>
+                <div class="modal-body">
+                    <!--|Register Form|-->
+                    <form class="register-form" method="post" id="register-form">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" required="" placeholder="Name" id="name" name="name">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" required="" placeholder="Email" id="email" name="email">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="tel" placeholder="Telephone" id="telephone" name="telephone">
+                            </div>
+                        </div>
+
+                        <button class="btn btn-block btn-primary" type="submit">Register</button>
+                    </form> <!--|End Register Form|-->
+                </div>
+            </div>
+        </div>
+    </div><!--||End Register||-->
+    <!--||Site Header||-->
+    <header id="home" class="site-header overlay-black">
+        <div class="overlay-inner">
+            <div class="fp-navbar">
+                <nav class="navbar">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <!--|Toggle Btn|-->
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <i class="ion-navicon"></i>
+                            </button> <!--|End Toggle Btn|-->
+                            <!--|Brand( Logo )|-->
+                            <a class="navbar-brand" href="#home">
+                                <img class="logo-white" alt="rhyme" src="assets/images/logo_song_for_hope_white_300x41.png">
+                                <img class="logo-black" alt="rhyme" src="assets/images/logo_song_for_hope_black.png">
+                            </a> <!--|End Brand( Logo )|-->
+                        </div>
+
+                        <!--|Navbar collapse|-->
+                        <div class="collapse navbar-collapse" id="menu">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#theplayers">The Players</a></li>
+                                <li><a href="#theschedule">The Schedule</a></li>
+                                <li><a href="#ourstory">Our Story</a></li>
+                                <li><a href="#thevideo">The Video</a></li>
+                                <li><a href="#faqs">FAQ</a></li>
+                                <li><a href="#gallery">Past Events</a></li>
+                                <li><a href="#blog">Blog</a></li>
+                                <li><a href="#sponsor">Sponsors</a></li>
+                            </ul>
+                        </div> <!--|End Navbar collapse|-->
+                    </div>
+                </nav>
+            </div>
+
+            <!--|Greeting Content|-->
+            <div class="greetings-content text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9 content-center">
+                            <!--|Head Text|-->
+                            <div class="head-text">
+                                <p class="fp-meta">18 - 21 August, 2016 in Traverse City, MI</p>
+                                <h1 class="head-title">Song for Hope Marathon</h1>
+                            </div> <!--|End Head Text|-->
+                            <!--|Button Panel|-->
+                            <div class="button-panel">
+                                <button class="btn btn-lg btn-primary" data-toggle="modal" data-target="#register">Sign Up to Play or Sing Now!</button>
+                            </div> <!--|End Button Panel|-->
+                        </div>
+                    </div>
+                </div>
+            </div> <!--|End Greeting Content|-->
+        </div>
+
+    </header> <!--||End Site Header||-->
+
+    <!--|Countdown|-->
+    <div class="countdown">
+        <div class="container">
+            <!--|Event Countdown|-->
+            <div class="event-countdown text-center">
+                <p>Countdown to Our Marathon Weekend</p>
+
+                <div id="countdown-timer" class="countdown-timer"></div>
+            </div> <!--|End Event Countdown|-->
+        </div>
+    </div> <!--|End Countdown|-->
+
+    <!--||Players||-->
+    <section id="theplayers" class="speakers section overlay-white">
+        <div class="overlay-inner">
+            <div class="container">
+                <!--|Section Header|-->
+                <header class="section-header">
+                    <div class="row">
+                        <div class="col-md-6 content-center">
+                            <h2 class="section-title">
+                                <span class="fp-meta">The</span>
+                                <span class="title-text">Players</span>
+                            </h2>
+                            <p>Some folks who are helping us out this year.</p>
+                        </div>
+                    </div>
+                </header> <!--|End Section Header|-->
+
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="speaker">
+                            <figure class="avatar">
+                                <img src="assets/images/player_niemisto_patrick.jpg" alt="">
+                            </figure>
+
+                            <div class="speaker-info">
+                                <h4 class="name">Patrick Niemisto</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="speaker">
+                            <figure class="avatar">
+                                <img src="assets/images/player_skellenger_chris.jpg" alt="">
+                            </figure>
+
+                            <div class="speaker-info">
+                                <h4 class="name">Chris Skellenger</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="speaker">
+                            <figure class="avatar">
+                                <img src="assets/images/player_binsfeld_mike.jpg" alt="">
+                            </figure>
+
+                            <div class="speaker-info">
+                                <h4 class="name">Mike Binsfeld</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="speaker">
+                            <figure class="avatar">
+                                <img src="assets/images/player_wheeler_norm.jpg" alt="">
+                            </figure>
+
+                            <div class="speaker-info">
+                                <h4 class="name">Norm Wheeler</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="speaker">
+                            <figure class="avatar">
+                                <img src="assets/images/player_dekorne_bob.jpg" alt="">
+                            </figure>
+
+                            <div class="speaker-info">
+                                <h4 class="name">Bob DeKorne</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="speaker">
+                            <figure class="avatar">
+                                <img src="assets/images/player_fordyce_tom.jpg" alt="">
+                            </figure>
+
+                            <div class="speaker-info">
+                                <h4 class="name">Tom Fordyce</h4>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </section> <!--||End Players||-->
+
+    <!--||The Schedule||-->
+    <section id="theschedule" class="schedule-wrapper section">
+        <div class="container">
+            <!--|Section Header|-->
+            <header class="section-header">
+                <div class="row">
+                    <div class="col-md-6 content-center">
+                        <h2 class="section-title">
+                            <span class="fp-meta">The Time</span>
+                            <span class="title-text">Schedule</span>
+                        </h2>
+                        <p>--- Can we embed the on-line schedule? ---</p>
+                    </div>
+                </div>
+            </header> <!--|End Section Header|-->
+
+            <div class="row">
+                <div class="col-md-9 content-center">
+                    <!--|Tab Navigation|-->
+                    <div class="tab-navigation">
+                        <ul class="tabs">
+                            <li><a class="active" href="#" data-tab="day1">25 Jan, 2016</a></li>
+                            <li><a href="#" data-tab="day2">26 Jan, 2016</a></li>
+                            <li><a href="#" data-tab="day3">27 Jan, 2016</a></li>
+                        </ul>
+                    </div> <!--|End Tab Navigation|-->
+                    <!--|schedules|-->
+                    <div class="schedules">
+                        <ul id="day1" class="tab-content current">
+                            <li>
+                                <div class="pull-right text-right">
+                                    <span class="fp-meta"><span>08:30am</span><br>Hall#01</span>
+                                </div>
+                                <div class="schedule-info">
+                                    <h4 class="title">Opening Remarks</h4>
+                                    <div class="speaker">
+                                        <figure class="avatar">
+                                            <img src="assets/images/avatar01.jpg" alt="">
+                                        </figure>
+                                        <div class="fp-desc">
+                                            <h4 class="name">Jamie Wen</h4>
+                                            <p>Co-Founder &amp; CEO, Slack</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="pull-right text-right">
+                                    <span class="fp-meta"><span>09:30am</span><br>Hall#01</span>
+                                </div>
+                                <div class="schedule-info">
+                                    <h4 class="title">Introduction to WP</h4>
+                                    <div class="speaker">
+                                        <figure class="avatar">
+                                            <img src="assets/images/avatar02.jpg" alt="">
+                                        </figure>
+                                        <div class="fp-desc">
+                                            <h4 class="name">Maria Hall</h4>
+                                            <p>CEO, Google Inc.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="pull-right text-right">
+                                    <span class="fp-meta"><span>12:00pm</span><br>Hall#03</span>
+                                </div>
+                                <div class="schedule-info">
+                                    <h4 class="title">Lunch Brack</h4>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="pull-right text-right">
+                                    <span class="fp-meta"><span>01:00am</span><br>Hall#02</span>
+                                </div>
+                                <div class="schedule-info">
+                                    <h4 class="title">Getting Started with WP</h4>
+                                    <div class="speaker">
+                                        <figure class="avatar">
+                                            <img src="assets/images/avatar03.jpg" alt="">
+                                        </figure>
+                                        <div class="fp-desc">
+                                            <h4 class="name">Joe Fisher</h4>
+                                            <p>GM, The Boxstrap</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="pull-right text-right">
+                                    <span class="fp-meta"><span>02:00am</span><br>Hall#02</span>
+                                </div>
+                                <div class="schedule-info">
+                                    <h4 class="title">WP Theme &amp; Child Theme Development</h4>
+                                    <div class="speaker">
+                                        <figure class="avatar">
+                                            <img src="assets/images/avatar04.jpg" alt="">
+                                        </figure>
+                                        <div class="fp-desc">
+                                            <h4 class="name">Aaron Banks</h4>
+                                            <p>CEO, The Sage Group</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul id="day2" class="tab-content">
+                            <li>
+                                <div class="pull-right text-right">
+                                    <span class="fp-meta"><span>08:30am</span><br>Hall#01</span>
+                                </div>
+                                <div class="schedule-info">
+                                    <h4 class="title">Plugin Development</h4>
+                                    <div class="speaker">
+                                        <figure class="avatar">
+                                            <img src="assets/images/avatar04.jpg" alt="">
+                                        </figure>
+                                        <div class="fp-desc">
+                                            <h4 class="name">Aaron Banks</h4>
+                                            <p>CEO, The Sage Group</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="pull-right text-right">
+                                    <span class="fp-meta"><span>09:30am</span><br>Hall#01</span>
+                                </div>
+                                <div class="schedule-info">
+                                    <h4 class="title">Useing SASS</h4>
+                                    <div class="speaker">
+                                        <figure class="avatar">
+                                            <img src="assets/images/avatar03.jpg" alt="">
+                                        </figure>
+                                        <div class="fp-desc">
+                                            <h4 class="name">Joe Fisher</h4>
+                                            <p>GM, The Boxstrap</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="pull-right text-right">
+                                    <span class="fp-meta"><span>12:00pm</span><br>Hall#03</span>
+                                </div>
+                                <div class="schedule-info">
+                                    <h4 class="title">Lunch Brack</h4>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="pull-right text-right">
+                                    <span class="fp-meta"><span>01:00pm</span><br>Hall#02</span>
+                                </div>
+                                <div class="schedule-info">
+                                    <h4 class="title">CSS Best Practices</h4>
+                                    <div class="speaker">
+                                        <figure class="avatar">
+                                            <img src="assets/images/avatar02.jpg" alt="">
+                                        </figure>
+                                        <div class="fp-desc">
+                                            <h4 class="name">Maria Hall</h4>
+                                            <p>CEO, Google Inc.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="pull-right text-right">
+                                    <span class="fp-meta"><span>02:00pm</span><br>Hall#02</span>
+                                </div>
+                                <div class="schedule-info">
+                                    <h4 class="title">CSS Animation In-Depth Post-Conference Workshop</h4>
+                                    <div class="speaker">
+                                        <figure class="avatar">
+                                            <img src="assets/images/avatar01.jpg" alt="">
+                                        </figure>
+                                        <div class="fp-desc">
+                                            <h4 class="name">Jamie Wen</h4>
+                                            <p>Co-Founder &amp; CEO, Slack</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul id="day3" class="tab-content">
+                            <li>
+                                <div class="pull-right text-right">
+                                    <span class="fp-meta"><span>08:30am</span><br>Hall#02</span>
+                                </div>
+                                <div class="schedule-info">
+                                    <h4 class="title">Frontend Tooling Post-Conference Workshop</h4>
+                                    <div class="speaker">
+                                        <figure class="avatar">
+                                            <img src="assets/images/avatar02.jpg" alt="">
+                                        </figure>
+                                        <div class="fp-desc">
+                                            <h4 class="name">Maria Hall</h4>
+                                            <p>CEO, Google Inc.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="pull-right text-right">
+                                    <span class="fp-meta"><span>09:30am</span><br>Hall#01</span>
+                                </div>
+                                <div class="schedule-info">
+                                    <h4 class="title">Plugin Development</h4>
+                                    <div class="speaker">
+                                        <figure class="avatar">
+                                            <img src="assets/images/avatar04.jpg" alt="">
+                                        </figure>
+                                        <div class="fp-desc">
+                                            <h4 class="name">Aaron Banks</h4>
+                                            <p>CEO, The Sage Group</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="pull-right text-right">
+                                    <span class="fp-meta"><span>12:00pm</span><br>Hall#03</span>
+                                </div>
+                                <div class="schedule-info">
+                                    <h4 class="title">Lunch Brack</h4>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="pull-right text-right">
+                                    <span class="fp-meta"><span>01:30am</span><br>Hall#01</span>
+                                </div>
+                                <div class="schedule-info">
+                                    <h4 class="title">CSS Animation In-Depth Post-Conference Workshop</h4>
+                                    <div class="speaker">
+                                        <figure class="avatar">
+                                            <img src="assets/images/avatar03.jpg" alt="">
+                                        </figure>
+                                        <div class="fp-desc">
+                                            <h4 class="name">Joe Fisher</h4>
+                                            <p>GM, The Boxstrap</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="pull-right text-right">
+                                    <span class="fp-meta"><span>02:00pm</span><br>Hall#02</span>
+                                </div>
+                                <div class="schedule-info">
+                                    <h4 class="title">SMACSS Post-Conference Workshop</h4>
+                                    <div class="speaker">
+                                        <figure class="avatar">
+                                            <img src="assets/images/avatar01.jpg" alt="">
+                                        </figure>
+                                        <div class="fp-desc">
+                                            <h4 class="name">Jamie Wen</h4>
+                                            <p>Co-Founder &amp; CEO, Slack</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div> <!--|End schedules|-->
+                </div>
+            </div>
+        </div>
+    </section> <!--||End Schedule||-->
+
+    <!--||Our Story||-->
+    <section id="ourstory" class="benefits section overlay-black">
+        <div class="overlay-inner">
+            <div class="container">
+
+                <header class="section-header">
+                    <div class="row">
+                        <div class="col-md-6 content-center">
+                            <h2 class="section-title">
+                                <span class="fp-meta">Our</span>
+                                <span class="title-text">Story</span>
+                            </h2>
+                        </div>
+                    </div>
+                </header>
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="text-box">
+                            <div class="fp-desc">
+                                <h4 class="title">Our History</h4>
+                                <p>Buckets of Rain was formed in 2006 and began by pioneering a unique type of gravity fed drip irrigation to help impoverished communities feed themselves in Lesotho, as well as areas of Kenya, Guatemala, Honduras, and Belize.  Since 2012, we’ve turned our attention stateside, to struggling communities of Michigan, specifically in Detroit and Highland Parks long-crumbling neighborhoods.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <div class="text-box">
+                            <div class="fp-desc">
+                                <h4 class="title">Why Detroit?</h4>
+                                <p>The old neighborhoods of Detroit/Highland Park are home to thousands of struggling community members with little access to food and services, and virtually no access to fresh produce. Urban blight has infected these neighborhoods, opening the door for criminal activity on abandoned properties and destroying community cohesion. There are 50,000 abandoned and crumbling houses and at least that many that will be uninhabitable in the next few years.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4 col-sm-6">
+                        <div class="text-box">
+                            <div class="fp-desc">
+                                <h4 class="title">Our Work</h4>
+                                <p>Through the construction of urban gardens on abandoned city lots, Buckets of Rain diminishes urban blight, rekindles hope in struggling neighborhoods, and feeds the homeless through partners like the Detroit Rescue Mission Ministries and others.   We have re-purposed 23 blighted lots into food production since 2013, and grown tens of thousands of servings of vegetables, free of charge, for our partners and neighbors.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </section> <!--||End Benefits||-->
+    <!--||The Video||-->
+    <section id="thevideo" class="section">
+        <div class="container">
+            <!--|Section Header|-->
+            <header class="section-header">
+                <div class="row">
+                    <div class="col-md-6 content-center">
+                        <h2 class="section-title">
+                            <span class="fp-meta">The</span>
+                            <span class="title-text">Video</span>
+                        </h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+                    </div>
+                </div>
+            </header> <!--|End Section Header|-->
+
+            <div class="row">
+                <div class="col-md-8 content-center">
+                    <iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/hxlffndl_wE?rel=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </div>
+    </section> <!--||End Packages||-->
+    <!--||Overview||-->
+    <section id="overview" class="overview section overlay-black">
+        <div class="overlay-inner">
+            <div class="container">
+                <!--|Section Header|-->
+                <header class="section-header">
+                    <div class="row">
+                        <div class="col-md-6 content-center">
+                            <h2 class="section-title">
+                                <span class="fp-meta">Event</span>
+                                <span class="title-text">Overview</span>
+                            </h2>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+                        </div>
+                    </div>
+                </header> <!--|End Section Header|-->
+            </div>
+        </div>
+        </div>
+    </section> <!--||End Overview||-->
+    <!--||FAQ||-->
+    <section id="faqs" class="section">
+        <div class="container">
+            <!--|Section Header|-->
+            <header class="section-header">
+                <div class="row">
+                    <div class="col-md-6 content-center">
+                        <h2 class="section-title">
+                            <span class="fp-meta">Some</span>
+                            <span class="title-text">FAQ</span>
+                        </h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+                    </div>
+                </div>
+            </header> <!--|End Section Header|-->
+
+            <div class="row">
+                <div class="col-md-9 content-center">
+                    <!--|FAQS|-->
+                    <div class="faq-wrapper" id="faq-panel">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#faq-panel" href="#faqOne">
+                                        <i class="fa-icon ion-help-circled"></i> How do I become an author?
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="faqOne" class="panel-collapse collapse in">
+                                <div class="panel-body">
+                                    <p>Enim at asperiores quod velit minima officia accusamus cumque eligendi consequuntur fuga? Maiores, quasi, voluptates.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, dolorum, vero ipsum molestiae minima odio quo voluptate illum excepturi quam cum voluptates doloribus quae nisi tempore necessitatibus dolores ducimus enim libero eaque explicabo suscipit animi at quaerat aliquid ex expedita perspiciatis? Saepe, aperiam, nam unde quas beatae vero vitae nulla.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#faq-panel" href="#faqTwo">
+                                        <i class="fa-icon ion-chatbox-working"></i>  Tips for Increasing Your Referral Income.
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="faqTwo" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, placeat, architecto rem dolorem dignissimos repellat veritatis in et eos doloribus magnam aliquam ipsa alias assumenda officiis quasi sapiente suscipit veniam odio voluptatum.</p>
+                                    <p>Enim at asperiores quod velit minima officia accusamus cumque eligendi consequuntur fuga? Maiores, quasi, voluptates, exercitationem fuga voluptatibus a repudiandae expedita omnis molestiae alias repellat perferendis dolores dolor.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#faq-panel" href="#faqThree">
+                                        <i class="fa-icon ion-images"></i> What Images, Videos, Code Can I Use in my Items?
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="faqThree" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <p>Enim at asperiores quod velit minima officia accusamus cumque eligendi consequuntur fuga? Maiores, quasi, voluptates, exercitationem fuga voluptatibus a repudiandae expedita omnis molestiae alias repellat perferendis dolores dolor.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#faq-panel" href="#faqFour">
+                                        <i class="fa-icon ion-social-usd"></i> How does the Tuts+ Premium affiliate program work?
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="faqFour" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, placeat, architecto rem dolorem dignissimos repellat veritatis in et eos doloribus magnam aliquam ipsa alias assumenda officiis quasi sapiente suscipit veniam odio voluptatum.</p>
+                                    <p>Enim at asperiores quod velit minima officia accusamus cumque eligendi consequuntur fuga? Maiores, quasi, voluptates, exercitationem fuga voluptatibus a repudiandae expedita omnis molestiae alias repellat perferendis dolores dolor.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#faq-panel" href="#faqFive">
+                                        <i class="fa-icon ion-alert"></i> Can I offer my items for free on a promotional basis?
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="faqFive" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, dolorum, vero ipsum molestiae minima odio quo voluptate illum excepturi quam cum voluptates doloribus quae nisi tempore necessitatibus dolores ducimus enim libero eaque explicabo suscipit animi at quaerat aliquid ex expedita perspiciatis? Saepe, aperiam, nam unde quas beatae vero vitae nulla.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!--|End FAQS|-->
+                </div>
+            </div>
+        </div>
+    </section> <!--||End FAQ||-->
+    <!--||Gallery||-->
+    <section id="gallery" class="section section-bg">
+        <div class="container">
+            <!--|Section Header|-->
+            <header class="section-header">
+                <div class="row">
+                    <div class="col-md-6 content-center">
+                        <h2 class="section-title">
+                            <span class="fp-meta">Event</span>
+                            <span class="title-text">Gallery</span>
+                        </h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+                    </div>
+                </div>
+            </header> <!--|End Section Header|-->
+
+            <div class="row">
+                <div class="col-md-9 content-center">
+                    <!--|Gallery|-->
+                    <div class="gallery">
+                        <div class="gallery-item">
+                            <div class="item-inner">
+                                <img src="assets/images/horizon_4.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="gallery-item">
+                            <div class="item-inner">
+                                <img src="assets/images/horizon_5.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="gallery-item">
+                            <div class="item-inner">
+                                <img src="assets/images/park_1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div> <!--|End Gallery|-->
+                </div>
+            </div>
+        </div>
+    </section> <!--||End Gallery||-->
+    <!--||Blog||-->
+    <section id="blog" class="blog-posts section">
+        <div class="container">
+            <!--|Section Header|-->
+            <header class="section-header">
+                <div class="row">
+                    <div class="col-md-6 content-center">
+                        <h2 class="section-title">
+                            <span class="fp-meta">From</span>
+                            <span class="title-text">Blog</span>
+                        </h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+                    </div>
+                </div>
+            </header> <!--|End Section Header|-->
+            <!--|Post Wrapper|-->
+            <div class="posts-wrapper">
+                <div class="row">
+                    <div class="col-md-6">
+                        <!--|Post|-->
+                        <article class="fp-post">
+                            <a class="thumb-container" href="#">
+                                <img src="assets/images/posts/img01.jpg" alt="">
+                            </a>
+                            <div class="post-desc">
+                                <header class="post-header">
+                                    <div class="fp-cat post-meta"><a href="#">Business</a></div>
+                                    <h4 class="post-title"><a href="#">You Might not be Aware</a></h4>
+                                </header>
+                                <div class="fp-entry">
+                                    <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt[...]</p>
+                                    <a class="more-btn" href="#">Read More +</a>
+                                </div>
+                            </div>
+                        </article> <!--|End Post|-->
+                    </div>
+
+                    <div class="col-md-6">
+                        <!--|Post|-->
+                        <article class="fp-post">
+                            <a class="thumb-container" href="#">
+                                <img src="assets/images/posts/img02.jpg" alt="">
+                            </a>
+                            <div class="post-desc">
+                                <header class="post-header">
+                                    <div class="fp-cat post-meta"><a href="#">Business</a></div>
+                                    <h4 class="post-title"><a href="#">Proin Gravida Nibh vel Velit</a></h4>
+                                </header>
+                                <div class="fp-entry">
+                                    <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt[...]</p>
+                                    <a class="more-btn" href="#">Read More +</a>
+                                </div>
+                            </div>
+                        </article> <!--|End Post|-->
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <!--|Post|-->
+                        <article class="fp-post">
+                            <a class="thumb-container" href="#">
+                                <img src="assets/images/posts/img03.jpg" alt="">
+                            </a>
+                            <div class="post-desc">
+                                <header class="post-header">
+                                    <div class="fp-cat post-meta"><a href="#">Business</a></div>
+                                    <h4 class="post-title"><a href="#">Tips for Increasing.</a></h4>
+                                </header>
+                                <div class="fp-entry">
+                                    <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt[...]</p>
+                                    <a class="more-btn" href="#">Read More +</a>
+                                </div>
+                            </div>
+                        </article> <!--|End Post|-->
+                    </div>
+
+                    <div class="col-md-6">
+                        <!--|Post|-->
+                        <article class="fp-post">
+                            <a class="thumb-container" href="#">
+                                <img src="assets/images/posts/img04.jpg" alt="">
+                            </a>
+                            <div class="post-desc">
+                                <header class="post-header">
+                                    <div class="fp-cat post-meta"><a href="#">Webdesign</a></div>
+                                    <h4 class="post-title"><a href="#">You might not be aware</a></h4>
+                                </header>
+                                <div class="fp-entry">
+                                    <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt[...]</p>
+                                    <a class="more-btn" href="#">Read More +</a>
+                                </div>
+                            </div>
+                        </article> <!--|End Post|-->
+                    </div>
+                </div>
+
+                <!--|Button Panel|-->
+                <div class="btn-panel">
+                    <a class="btn btn-primary" href="#">View More</a>
+                </div> <!--|End Button Panel|-->
+            </div> <!--|End Post Wrapper|-->
+        </div>
+    </section> <!--||End Blog||-->
+    <!--||Sponsor||-->
+    <section id="sponsor" class="section section-bg">
+        <div class="container">
+            <!--|Section Header|-->
+            <header class="section-header">
+                <div class="row">
+                    <div class="col-md-6 content-center">
+                        <h2 class="section-title">
+                            <span class="fp-meta">Event</span>
+                            <span class="title-text">Sponsor</span>
+                        </h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+                    </div>
+                </div>
+            </header> <!--|End Section Header|-->
+
+            <div class="sponsor-panel">
+                <!--|Sponsors|-->
+                <ul class="sponsors">
+                    <li><a href="#"><img src="assets/images/sponsors/logo01.png" alt=""></a></li>
+                    <li><a href="#"><img src="assets/images/sponsors/logo02.png" alt=""></a></li>
+                    <li><a href="#"><img src="assets/images/sponsors/logo03.png" alt=""></a></li>
+                    <li><a href="#"><img src="assets/images/sponsors/logo04.png" alt=""></a></li>
+                    <li><a href="#"><img src="assets/images/sponsors/logo05.png" alt=""></a></li>
+                    <li><a href="#"><img src="assets/images/sponsors/logo06.png" alt=""></a></li>
+                    <li><a href="#"><img src="assets/images/sponsors/logo07.png" alt=""></a></li>
+                    <li><a href="#"><img src="assets/images/sponsors/logo08.png" alt=""></a></li>
+                </ul> <!--|End Sponsors|-->
+
+                <div class="button-panel text-center">
+                    <a class="btn btn-primary" href="#">Became A Sponsor</a>
+                </div>
+            </div>
+        </div>
+    </section> <!--||End Sponsor||-->
+    <!--||Google Map||-->
+    <div id="map" class="map-container"></div> <!--||End Google Map||-->
+    <!--||Subscribe||-->
+    <div class="subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <!--|Section Header|-->
+                    <header class="section-header">
+                        <h2 class="section-title">
+                            <span class="fp-meta">To Stay Up to Date</span>
+                            <span class="title-text">Subscribe Now</span>
+                        </h2>
+                        <p>Subscribe to our newsletter. We promise, we wont spam!</p>
+                    </header> <!--|End Section Header|-->
+                </div>
+
+                <div class="col-md-8">
+                    <!--|Subscribe Form|-->
+                    <form class="subscribe-form">
+                        <p class="subscribe-success" style="color: #008000"></p>
+                        <p class="subscribe-error" style="color: #ff0000"></p>
+                        <div class="row">
+                            <div class="col-md-8"><input type="email" placeholder="Enter your email address" name="EMAIL"></div>
+                            <div class="col-md-4"><button type="submit" class="submit-btn"><i class="ion-paper-airplane"></i> Subscribe</button></div>
+                        </div>
+                    </form> <!--|End Subscribe Form|-->
+                </div>
+            </div>
+        </div>
+    </div> <!--||End Subscribe||-->
+    <!--||Footer||-->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <!--|Social Links|-->
+            <div class="social-links">
+                <a href="#"><i class="ion-social-twitter"></i></a>
+                <a href="#"><i class="ion-social-facebook"></i></a>
+                <a href="#"><i class="ion-social-linkedin"></i></a>
+                <a href="#"><i class="ion-social-pinterest"></i></a>
+            </div> <!--|End Social Links|-->
+            <!--|Copyright|-->
+            <p class="copyright">&copy; 2015 <a href="#">Rhyme</a> . All Rights Reserved.</p> <!--|End Copyright|-->
+        </div>
+    </footer> <!--||Footer||-->
+    <!--||Javascript||-->
+    <!--|jQuery|-->
+    <script src="assets/js/jquery.min.js"></script>
+    <!--|Countdown|-->
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <!--|Vegas|-->
+    <script src="assets/js/vegas.min.js"></script>
+    <!--Owl Carousel-->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!--|Google Map|-->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <!--|Fitvids|-->
+    <script src="assets/js/jquery.fitvids.js"></script>
+    <!--|Validate|-->
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <!--|Ajaxchimp|-->
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <!--|Bootstrap|-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!--|Init|-->
+    <script src="assets/js/init.js"></script>
+</body>
+</html>
