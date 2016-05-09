@@ -10,7 +10,8 @@ namespace songforhope.org.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            var result = new FilePathResult("~/index.html", "text/html");
+            return result;
         }
 
         public ActionResult About()

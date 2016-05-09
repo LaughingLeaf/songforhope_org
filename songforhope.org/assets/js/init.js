@@ -116,7 +116,7 @@
 
     //
     // Google Map
-    var mapLocation = new google.maps.LatLng(44.764128, -85.618206); //change coordinates here
+    var mapLocation = new google.maps.LatLng(44.764128, -85.619071); //change coordinates here
     var marker;
     var map;
 
@@ -124,7 +124,7 @@
       var mapOptions = {
         zoom: 12, //change zoom here
         center: mapLocation,
-        scrollwheel: false,
+        scrollwheel: true,
         styles: [
           {"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#212121"}]},
           {"featureType":"landscape","elementType":"all","stylers":[{"color":"#e3e3e3"}]},
@@ -144,8 +144,8 @@
 
       // Replace with your data
       var contentString = '<div class="map-info-box">'
-                        + '<div class="info-head"><img src="assets/images/logo_black.png" alt=""></div>'
-                        + '<p class="map-address"><i class="ion-ios-location"></i> Traverse City, MI <br><i class="ion-ios-telephone"></i> 555-555-5555<br><i class="ion-email"></i> <a href="mailto:info@example.com">info@example.com</a></p>'
+                        + '<div class="info-head"><img src="assets/images/logo_song_for_hope_black_300x41.png" alt=""></div>'
+                        + '<p class="map-address"><i class="ion-ios-location"></i>Horizon Bookstore<br> Traverse City, MI <br></p>'
 
       var infowindow = new google.maps.InfoWindow({
         content: contentString

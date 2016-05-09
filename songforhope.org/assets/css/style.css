@@ -1007,7 +1007,7 @@ img {
 # Overview
 --------------------------------------------------------------*/
 .overview {
-  background-image: url("../images/overview_bg.jpg");
+  /*background-image: url("../images/overview_bg.jpg");*/
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
