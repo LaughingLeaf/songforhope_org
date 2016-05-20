@@ -47,35 +47,46 @@
             <span class="fp-meta">loading...</span>
         </div>
     </div> <!--|End Preloader|-->
-    <!--||Register||-->
+    <!--||Sign Up||-->
     <div id="register" class="register modal fade">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
                     <h4 class="modal-title">Sign Up to Play or Sing Now</h4>
                 </div>
                 <div class="modal-body">
-                    <!--|Register Form|-->
-                    <form class="register-form" method="post" id="register-form">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <input type="text" required="" placeholder="Name" id="name" name="name">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="email" required="" placeholder="Email" id="email" name="email">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="tel" placeholder="Telephone" id="telephone" name="telephone">
-                            </div>
-                        </div>
-
-                        <button class="btn btn-block btn-primary" type="submit">Register</button>
-                    </form> <!--|End Register Form|-->
+                    <p>Thank you for your interest in our Songathon. If you click the button below a new tab will open and allow you to sign up.</p>
+                </div>
+                <div class="modal-footer">
+                    <input type="button"
+                           class="submit-btn"
+                           onclick="window.open('https://www.SignUpGenius.com/go/4090D4FA5AE2EA4F58-song', '_blank');"
+                           value="Click Here to Sign Up" />
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Return to the Song for Hope Website</button>
                 </div>
             </div>
         </div>
-    </div><!--||End Register||-->
+    </div><!--||End Sign Up||-->
+    <!--||Donate||-->
+    <div id="donate" class="register modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Donate Now</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Thank you for your interest in donating to our Songathon. If you click the button below a new tab will open and allow you to sign up.</p>
+                </div>
+                <div class="modal-footer">
+                    <input type="button"
+                           class="submit-btn"
+                           onclick="window.open('https://secure.squarespace.com/commerce/donate?donatePageId=55e8ca26e4b071dc30ca6c53', '_blank');"
+                           value="Click Here to Donate" />
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Return to the Song for Hope Website</button>
+                </div>
+            </div>
+        </div>
+    </div><!--||End Donate||-->
     <!--||Site Header||-->
     <header id="home" class="site-header overlay-black">
         <div class="overlay-inner">
@@ -125,6 +136,9 @@
                             <div class="button-panel">
                                 <button class="btn btn-lg btn-primary" data-toggle="modal" data-target="#register">Sign Up to Play or Sing Now!</button>
                             </div> <!--|End Button Panel|-->
+                            <div class="button-panel">
+                                <button class="btn btn-lg btn-primary" data-toggle="modal" data-target="#donate">Donate Now!</button>
+                            </div> <!--|End Button Panel|-->
                         </div>
                     </div>
                 </div>
@@ -132,7 +146,6 @@
         </div>
 
     </header> <!--||End Site Header||-->
-
     <!--|Countdown|-->
     <div class="countdown">
         <div class="container">
@@ -144,7 +157,6 @@
             </div> <!--|End Event Countdown|-->
         </div>
     </div> <!--|End Countdown|-->
-
     <!--||Overview||-->
     <section id="overview" class="overview section overlay-black">
         <div class="overlay-inner">
@@ -152,14 +164,16 @@
                 <!--|Section Header|-->
                 <header class="section-header">
                     <div class="row">
-                        <div class="col-md-9 content-center ">
+                        <div class="col-md-9 content-center">
                             <h2 class="section-title">
                                 <span class="fp-meta">About</span>
                                 <span class="title-text">Songathon</span>
                             </h2>
-                            <div class="text-box">
-                                <div class="fp-desc">
-                                    <p class="align-left">Buckets of Rain rekindles hope in struggling neighborhoods through the development of urban gardens. Song for Hope is our annual fund raiser.</p>
+                        </div>
+                        <div class="col-md-9 content-center">
+                            <div class="text-justify text-box">
+                                <div>
+                                    <p>Buckets of Rain rekindles hope in struggling neighborhoods through the development of urban gardens. Song for Hope is our annual fund raiser.</p>
                                     <p>The 2016 Song for Hope Songathon is scheduled for August 18-21 - once again, we take over Downtown Traverse City in front of Horizon Books to break yet another record - this time, 75 hours of the Woody Guthrie classic "This Land is Your Land" to raise money for Buckets of Rain. Come on down and participate - bring your friends - and visit www.bucketsofrain.org for the whole story. It's really cool to turn music into vegetables - no magic required, just a lot of hard work.</p>
                                 </div>
                             </div>
@@ -170,7 +184,6 @@
         </div>
         </div>
     </section> <!--||End Overview||-->
-
     <!--||Players||-->
     <section id="theplayers" class="speakers section overlay-white">
         <div class="overlay-inner">
@@ -254,6 +267,18 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="speaker">
                             <figure class="avatar">
+                                <img src="assets/images/player_harrison_pat.jpg" alt="">
+                            </figure>
+
+                            <div class="speaker-info">
+                                <h4 class="name">Pat Harrison</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="speaker">
+                            <figure class="avatar">
                                 <img src="assets/images/player_fordyce_tom.jpg" alt="">
                             </figure>
 
@@ -262,7 +287,6 @@
                             </div>
                         </div>
                     </div>
-
 
                 </div>
 
@@ -287,7 +311,6 @@
 
             <div class="row">
                 <div class="col-md-6 content-center">
-                    <!--|Tab Navigation|-->
                     <div class="tab-navigation">
                         <ul class="tabs">
                             <li><a class="active" href="#" data-tab="day1">18 Aug, 2016</a></li>
@@ -295,317 +318,7 @@
                             <li><a href="#" data-tab="day3">20 Aug, 2016</a></li>
                             <li><a href="#" data-tab="day3">21 Aug, 2016</a></li>
                         </ul>
-                    </div> <!--|End Tab Navigation|-->
-                    <!--|schedules|-->
-                    <div class="schedules">
-                        <ul id="day1" class="tab-content current">
-                            <li>
-                                <div class="schedule-info">
-                                    <h4 class="title">12:00 pm - 1:00 pm</h4>
-                                    <div class="speaker">
-                                        <figure class="avatar">
-                                            <img src="assets/images/logo_raindrop_50x50.png" alt="">
-                                        </figure>
-                                        <div class="fp-desc">
-                                            <h4 class="name">Chris Skellenger</h4>
-                                            <h4 class="name">Sue Skellenger</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="schedule-info">
-                                    <h4 class="title">1:00 pm - 2:00 pm</h4>
-                                    <div class="speaker">
-                                        <figure class="avatar">
-                                            <img src="assets/images/logo_raindrop_50x50.png" alt="">
-                                        </figure>
-                                        <div class="fp-desc">
-                                            <h4 class="name">Chris Skellenger</h4>
-                                            <h4 class="name">Sue Skellenger</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="schedule-info">
-                                    <h4 class="title">2:00 pm - 3:00 pm</h4>
-                                    <div class="speaker">
-                                        <figure class="avatar">
-                                            <img src="assets/images/logo_raindrop_50x50.png" alt="">
-                                        </figure>
-                                        <div class="fp-desc">
-                                            <h4 class="name">Chris Skellenger</h4>
-                                            <h4 class="name">Sue Skellenger</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="schedule-info">
-                                    <h4 class="title">3:00 pm - 4:00 pm</h4>
-                                    <div class="speaker">
-                                        <figure class="avatar">
-                                            <img src="assets/images/logo_raindrop_50x50.png" alt="">
-                                        </figure>
-                                        <div class="fp-desc">
-                                            <h4 class="name">Chris Skellenger</h4>
-                                            <h4 class="name">Sue Skellenger</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="schedule-info">
-                                    <h4 class="title">4:00 pm - 5:00 pm</h4>
-                                    <div class="speaker">
-                                        <figure class="avatar">
-                                            <img src="assets/images/logo_raindrop_50x50.png" alt="">
-                                        </figure>
-                                        <div class="fp-desc">
-                                            <h4 class="name">Chris Skellenger</h4>
-                                            <h4 class="name">Sue Skellenger</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-
-                        <ul id="day2" class="tab-content">
-                            <li>
-                                <div class="schedule-info">
-                                    <h4 class="title">12:00 pm - 1:00 pm</h4>
-                                    <div class="speaker">
-                                        <figure class="avatar">
-                                            <img src="assets/images/logo_raindrop_50x50.png" alt="">
-                                        </figure>
-                                        <div class="fp-desc">
-                                            <h4 class="name">Chris Skellenger</h4>
-                                            <h4 class="name">Sue Skellenger</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="schedule-info">
-                                    <h4 class="title">1:00 pm - 2:00 pm</h4>
-                                    <div class="speaker">
-                                        <figure class="avatar">
-                                            <img src="assets/images/logo_raindrop_50x50.png" alt="">
-                                        </figure>
-                                        <div class="fp-desc">
-                                            <h4 class="name">Chris Skellenger</h4>
-                                            <h4 class="name">Sue Skellenger</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="schedule-info">
-                                    <h4 class="title">2:00 pm - 3:00 pm</h4>
-                                    <div class="speaker">
-                                        <figure class="avatar">
-                                            <img src="assets/images/logo_raindrop_50x50.png" alt="">
-                                        </figure>
-                                        <div class="fp-desc">
-                                            <h4 class="name">Chris Skellenger</h4>
-                                            <h4 class="name">Sue Skellenger</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="schedule-info">
-                                    <h4 class="title">3:00 pm - 4:00 pm</h4>
-                                    <div class="speaker">
-                                        <figure class="avatar">
-                                            <img src="assets/images/logo_raindrop_50x50.png" alt="">
-                                        </figure>
-                                        <div class="fp-desc">
-                                            <h4 class="name">Chris Skellenger</h4>
-                                            <h4 class="name">Sue Skellenger</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="schedule-info">
-                                    <h4 class="title">4:00 pm - 5:00 pm</h4>
-                                    <div class="speaker">
-                                        <figure class="avatar">
-                                            <img src="assets/images/logo_raindrop_50x50.png" alt="">
-                                        </figure>
-                                        <div class="fp-desc">
-                                            <h4 class="name">Chris Skellenger</h4>
-                                            <h4 class="name">Sue Skellenger</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-
-                        <ul id="day3" class="tab-content">
-                            <li>
-                                <div class="schedule-info">
-                                    <h4 class="title">12:00 pm - 1:00 pm</h4>
-                                    <div class="speaker">
-                                        <figure class="avatar">
-                                            <img src="assets/images/logo_raindrop_50x50.png" alt="">
-                                        </figure>
-                                        <div class="fp-desc">
-                                            <h4 class="name">Chris Skellenger</h4>
-                                            <h4 class="name">Sue Skellenger</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="schedule-info">
-                                    <h4 class="title">1:00 pm - 2:00 pm</h4>
-                                    <div class="speaker">
-                                        <figure class="avatar">
-                                            <img src="assets/images/logo_raindrop_50x50.png" alt="">
-                                        </figure>
-                                        <div class="fp-desc">
-                                            <h4 class="name">Chris Skellenger</h4>
-                                            <h4 class="name">Sue Skellenger</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="schedule-info">
-                                    <h4 class="title">2:00 pm - 3:00 pm</h4>
-                                    <div class="speaker">
-                                        <figure class="avatar">
-                                            <img src="assets/images/logo_raindrop_50x50.png" alt="">
-                                        </figure>
-                                        <div class="fp-desc">
-                                            <h4 class="name">Chris Skellenger</h4>
-                                            <h4 class="name">Sue Skellenger</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="schedule-info">
-                                    <h4 class="title">3:00 pm - 4:00 pm</h4>
-                                    <div class="speaker">
-                                        <figure class="avatar">
-                                            <img src="assets/images/logo_raindrop_50x50.png" alt="">
-                                        </figure>
-                                        <div class="fp-desc">
-                                            <h4 class="name">Chris Skellenger</h4>
-                                            <h4 class="name">Sue Skellenger</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="schedule-info">
-                                    <h4 class="title">4:00 pm - 5:00 pm</h4>
-                                    <div class="speaker">
-                                        <figure class="avatar">
-                                            <img src="assets/images/logo_raindrop_50x50.png" alt="">
-                                        </figure>
-                                        <div class="fp-desc">
-                                            <h4 class="name">Chris Skellenger</h4>
-                                            <h4 class="name">Sue Skellenger</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-
-                        <ul id="day4" class="tab-content">
-                            <li>
-                                <div class="schedule-info">
-                                    <h4 class="title">12:00 pm - 1:00 pm</h4>
-                                    <div class="speaker">
-                                        <figure class="avatar">
-                                            <img src="assets/images/logo_raindrop_50x50.png" alt="">
-                                        </figure>
-                                        <div class="fp-desc">
-                                            <h4 class="name">Chris Skellenger</h4>
-                                            <h4 class="name">Sue Skellenger</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="schedule-info">
-                                    <h4 class="title">1:00 pm - 2:00 pm</h4>
-                                    <div class="speaker">
-                                        <figure class="avatar">
-                                            <img src="assets/images/logo_raindrop_50x50.png" alt="">
-                                        </figure>
-                                        <div class="fp-desc">
-                                            <h4 class="name">Chris Skellenger</h4>
-                                            <h4 class="name">Sue Skellenger</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="schedule-info">
-                                    <h4 class="title">2:00 pm - 3:00 pm</h4>
-                                    <div class="speaker">
-                                        <figure class="avatar">
-                                            <img src="assets/images/logo_raindrop_50x50.png" alt="">
-                                        </figure>
-                                        <div class="fp-desc">
-                                            <h4 class="name">Chris Skellenger</h4>
-                                            <h4 class="name">Sue Skellenger</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="schedule-info">
-                                    <h4 class="title">3:00 pm - 4:00 pm</h4>
-                                    <div class="speaker">
-                                        <figure class="avatar">
-                                            <img src="assets/images/logo_raindrop_50x50.png" alt="">
-                                        </figure>
-                                        <div class="fp-desc">
-                                            <h4 class="name">Chris Skellenger</h4>
-                                            <h4 class="name">Sue Skellenger</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="schedule-info">
-                                    <h4 class="title">4:00 pm - 5:00 pm</h4>
-                                    <div class="speaker">
-                                        <figure class="avatar">
-                                            <img src="assets/images/logo_raindrop_50x50.png" alt="">
-                                        </figure>
-                                        <div class="fp-desc">
-                                            <h4 class="name">Chris Skellenger</h4>
-                                            <h4 class="name">Sue Skellenger</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div> <!--|End schedules|-->
+                    </div>
                 </div>
             </div>
         </div>
@@ -646,7 +359,6 @@
                         </div>
                     </div>
 
-
                     <div class="col-md-4 col-sm-6">
                         <div class="text-box">
                             <div class="fp-desc">
@@ -678,13 +390,17 @@
 
             <div class="row">
                 <div class="col-md-8 content-center">
-                    <iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/hxlffndl_wE?rel=0" frameborder="0" allowfullscreen></iframe>
+                    <!--<iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/hxlffndl_wE?rel=0" frameborder="0" allowfullscreen></iframe>-->
+
+                    <div class="video-container">
+                        <iframe src="https://www.youtube-nocookie.com/embed/hxlffndl_wE?rel=0" allowfullscreen></iframe>
+                    </div>
+
                 </div>
             </div>
 
         </div>
     </section> <!--||End Packages||-->
-
     <!--||FAQ||-->
     <section id="faqs" class="section section-bg">
         <div class="container">
@@ -708,14 +424,13 @@
                             <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a data-toggle="collapse" data-parent="#faq-panel" href="#faqOne">
-                                        <i class="fa-icon ion-help-circled"></i> What is the money used for?
+                                        <i class="fa-icon ion-help-circled"></i> Do I have to play an instrument?
                                     </a>
                                 </h4>
                             </div>
                             <div id="faqOne" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <p>Food for people.</p>
-                                    <p>The garden.</p>
+                                    <p>No instrument necessary, no experience necessary, no talent necessary.  But, all instruments have to be unamplified or very gently amplified.  We have to respect the patrons and employees of Horizon Books.  Plenty of hand percussion toys and lyric sheets are available.  We just want YOU, beautiful you!</p>
                                 </div>
                             </div>
                         </div>
@@ -724,14 +439,13 @@
                             <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a data-toggle="collapse" data-parent="#faq-panel" href="#faqTwo">
-                                        <i class="fa-icon ion-help-circled"></i> What is the money used for?
+                                        <i class="fa-icon ion-help-circled"></i> Is this an actual performance?
                                     </a>
                                 </h4>
                             </div>
                             <div id="faqTwo" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <p>Food for people.</p>
-                                    <p>The garden.</p>
+                                    <p>No, heaven's no!  It's a perpetual, 75 hour, song circle made up of amateur and professional musicians, young and old,  boys and girls, babies and octogenarians, folks with insomnia, chronic do-gooders, saints, and a few  sinners figuring this is their last, best, chance.</p>
                                 </div>
                             </div>
                         </div>
@@ -741,7 +455,6 @@
             </div>
         </div>
     </section> <!--||End FAQ||-->
-
     <!--||Gallery||-->
     <section id="gallery" class="section">
         <div class="container">
@@ -784,8 +497,6 @@
             </div>
         </div>
     </section> <!--||End Gallery||-->
-
-   
     <!--||Sponsor||-->
     <section id="sponsor" class="section section-bg">
         <div class="container">
@@ -797,7 +508,7 @@
                             <span class="fp-meta">Event</span>
                             <span class="title-text">Sponsors</span>
                         </h2>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+                        <p>A special thanks goes out to all those who have worked to sponsor the Songathon.</p>
                     </div>
                 </div>
             </header> <!--|End Section Header|-->
@@ -821,11 +532,9 @@
             </div>
         </div>
     </section> <!--||End Sponsor||-->
-
     <!--||Google Map||-->
     <div id="map" class="map-container"></div> <!--||End Google Map||-->
-
-    <!--||Subscribe||-->
+    <!--||Donate||-->
     <div class="subscribe">
         <div class="container">
             <div class="row">
@@ -833,27 +542,28 @@
                     <!--|Section Header|-->
                     <header class="section-header">
                         <h2 class="section-title">
-                            <span class="fp-meta">Follow Buckets of Rain</span>
-                            <span class="title-text">Subscribe Now</span>
+                            <span class="fp-meta">Help Buckets of Rain</span>
+                            <span class="title-text">Donate Now</span>
                         </h2>
-                        <p>Subscribe to our newsletter. We promise, we won't spam!</p>
+                        <p>Help continue to feed those in need.</p>
                     </header> <!--|End Section Header|-->
                 </div>
 
                 <div class="col-md-8">
                     <!--|Subscribe Form|-->
                     <form class="subscribe-form">
-                        <p class="subscribe-success" style="color: #008000"></p>
-                        <p class="subscribe-error" style="color: #ff0000"></p>
                         <div class="row">
-                            <div class="col-md-8"><input type="email" placeholder="Enter your email address" name="EMAIL"></div>
-                            <div class="col-md-4"><button type="submit" class="submit-btn"><i class="ion-paper-airplane"></i> Subscribe</button></div>
+                            <input type="button"
+                                   class="col-md-4 submit-btn"
+                                   onclick="window.open('https://secure.squarespace.com/commerce/donate?donatePageId=55e8ca26e4b071dc30ca6c53', '_blank');"
+                                   value="Click Here to Donate" />
                         </div>
                     </form> <!--|End Subscribe Form|-->
                 </div>
             </div>
         </div>
     </div> <!--||End Subscribe||-->
+
     <!--||Footer||-->
     <footer id="footer" class="footer">
         <div class="container">
