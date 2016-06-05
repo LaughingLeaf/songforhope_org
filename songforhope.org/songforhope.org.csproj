@@ -251,6 +251,7 @@
     <Content Include="assets\fonts\ionicons.eot" />
     <Content Include="assets\fonts\ionicons.ttf" />
     <Content Include="assets\fonts\ionicons.woff" />
+    <None Include="Properties\PublishProfiles\BoRSongForHope.pubxml" />
     <None Include="Properties\PublishProfiles\songforhope.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
